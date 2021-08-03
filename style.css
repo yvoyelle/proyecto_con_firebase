@@ -1,0 +1,75 @@
+
+
+.formulario{
+display: flex;
+justify-content:space-around;
+
+}
+.formulario fieldset{
+    background-color: dimgrey;
+    border: none;
+}
+.formulario legend{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color:black;
+    margin-bottom: 20px;
+}
+.contenedor-campo{
+
+}
+.campo{
+    margin-bottom: 10px;
+}
+.campo label{
+    font-weight: 700;
+    color: white;
+    display: block;
+}
+.input-text{
+width: 90%;
+padding: 15px;
+border: none;
+border-radius: 15rem;
+
+}
+.tab{
+    display: block;
+}
+.tabla{
+
+        border: 1px;
+    
+}
+
+
+.titulo{
+    text-align: center;
+}
+
+.boton{
+    background-color:darkgreen;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+.contenedor-seccion{
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr);
+}
+table, tr,td{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    background-color:darkgrey;
+}
+th,td{
+    padding: 15px;
+}
+tr{
+    font-size: 20px;
+    font-weight: 700;
+}

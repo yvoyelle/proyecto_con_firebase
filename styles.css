@@ -1,0 +1,24 @@
+.contenido{
+
+display:  flex;
+justify-content: space-around;
+padding: 50px;
+
+}
+.comprar{
+    display:  flex;
+    justify-content: space-between; 
+      
+}
+.input-color{
+color: forestgreen;
+font-size: large;
+
+} 
+.boton-color{
+    background-color: red;
+    color: white;
+}
+body{
+    background-color:azure;
+}
